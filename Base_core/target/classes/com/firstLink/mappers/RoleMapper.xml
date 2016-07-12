@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+  
+<!DOCTYPE mapper PUBLIC   
+    "-//mybatis.org//DTD Mapper 3.0//EN"  
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+  
+<mapper namespace="com.firstLink.dao.IRoleDao">  
+	
+	<resultMap type="com.firstLink.model.Role" id="RoleMap">
+		<id property="id" column="FRoleId" />
+		<result property="name" column="FRoleName" />
+		<result property="date" column="FCrDate" />
+		<result property="userId" column="FCrUserId" />
+		<result property="memo" column="FMemo" />
+	</resultMap>
+	
+	<sql id="where">
+    	<where>
+			<if test="id != null and id != ''">
+   				and m.FRoleId = #{id}
+	   		</if>
+			<if test="name != null and name != ''">
+    			and m.fRoleName  like '%'||#{name}||'%' 
+    		</if>
+		</where>
+    </sql> 
+    
+    <select id="getListCount"  resultType="int">  
+        select count(*) from
+				(select * from NI_Role m
+				<include refid="where" /> )
+			a 
+    </select>  
+    
+    <select id="getList"  resultMap="RoleMap">  
+        select FRoleId,FRoleName,FCrDate,FCrUserId,FMemo,rn from (
+		select a.*,rownum rn from
+		(select * from NI_Role m
+		<include refid="where" /> )
+		a
+          
+			) c
+			
+		<![CDATA[
+				where rn>=#{startRow} and rn<=#{endRow}
+			]]>	
+    </select>  
+    
+    <insert id="save" useGeneratedKeys="true" keyProperty="guid">
+		<![CDATA[
+			insert into NI_Role(
+				FRoleId,FRoleName,FCrDate,FCrUserId,FMemo
+			) values(
+				#{id}, #{name}, #{date}, #{userId}, #{memo}
+			)
+		]]>
+		<selectKey resultType="java.lang.String" order="BEFORE" keyProperty="id">
+			<![CDATA[
+			select SYS_GUID() id from DUAL
+			]]>
+		</selectKey>
+	</insert>
+	
+	<update id="update">
+		<![CDATA[
+			update NI_Role set
+				FRoleName = #{name}, FCrDate = #{date,jdbcType=VARCHAR}, FCrUserId = #{userId,jdbcType=VARCHAR}
+			   ,FMemo = #{memo,jdbcType=VARCHAR}
+			where FRoleId = #{id}
+		]]>
+	</update>
+    
+    <delete id="delete">
+		<![CDATA[
+			delete from NI_Role where FRoleId = #{id}
+		]]>
+	</delete>
+	
+	
+    
+</mapper>  

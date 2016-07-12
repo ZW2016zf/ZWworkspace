@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	
+	<package name="configuration" extends="json-default">
+		
+		<!-- 自定义拦截器 -->
+		<interceptors>
+			<!-- 自定义登录拦截器 -->
+			<interceptor name="loginInterceptor" class="com.base.xtgl.interceptor.LoginInterceptor"></interceptor>
+			<!-- 将自定义拦截器加载到拦截器栈 -->
+			<interceptor-stack name="BaseStack">
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="loginInterceptor" />
+			</interceptor-stack>
+		</interceptors>
+		<!-- 将自定义拦截器栈设置为默认拦截器 -->
+		<default-interceptor-ref name="BaseStack"></default-interceptor-ref>
+		<global-results>
+			<result name="data" type="json">  
+                <param name="root">data</param>  
+         	</result> 
+            <result name="login">/WEB-INF/index.jsp</result>
+            <result name="sessionOut">/WEB-INF/index.jsp?sessionout=${sessionout}</result>
+         	<!-- 异常处理页面 -->
+         	<result name="error">/WEB-INF/pages/error/error.jsp</result>
+			<result name="unknowException">/WEB-INF/pages/error/unknowerror.jsp</result>
+		</global-results>
+		<!-- 利用strus2的异常框架 -->       
+		<global-exception-mappings>   
+			<exception-mapping result="error" exception="java.lang.Exception"/>
+			<exception-mapping result="unknowException" exception="java.lang.Exception"></exception-mapping>
+			<exception-mapping result="dataIntegrityViolationException" exception="org.springframework.dao.DataIntegrityViolationException"></exception-mapping>			 
+		</global-exception-mappings>   
+	 </package>
+
+<!-- 引入子工程的公共配置文件  -->
+	<include file="conf/struts/struts-*.xml"/>
+	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+</struts>

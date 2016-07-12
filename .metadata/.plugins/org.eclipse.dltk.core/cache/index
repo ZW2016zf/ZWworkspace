@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/amazeui.ie8polyfill.js" timestamp="1467206949592" lastAccessTime="1468231109226"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/amazeui.ie8polyfill.min.js" timestamp="1467206949592" lastAccessTime="1468315424396"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/amazeui.js" timestamp="1467206949592" lastAccessTime="1468231109484"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/amazeui.min.js" timestamp="1467206949592" lastAccessTime="1468231109616"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/amazeui.widgets.helper.js" timestamp="1467206949592" lastAccessTime="1468231109732"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/amazeui.widgets.helper.min.js" timestamp="1467206949592" lastAccessTime="1468231109834"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/app.js" timestamp="1467206949592" lastAccessTime="1468231109936"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/common.js" timestamp="1467428716755" lastAccessTime="1468231110037"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/handlebars.min.js" timestamp="1467206949592" lastAccessTime="1468231110143"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/img.js" timestamp="1467206949592" lastAccessTime="1468231110258"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/jquery.min.js" timestamp="1467206949592" lastAccessTime="1468231110369"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/jquery.waterfall.min.js" timestamp="1467206949592" lastAccessTime="1468231110483"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/modal.js" timestamp="1467431542281" lastAccessTime="1468231110584"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/page.js" timestamp="1467291110022" lastAccessTime="1468231110686"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/pinto.min.js" timestamp="1467206949592" lastAccessTime="1468231110788"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_web/WebRoot/assets/js/table.js" timestamp="1467339065676" lastAccessTime="1468231110889"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/amazeui.ie8polyfill.js" timestamp="1467206949592" lastAccessTime="1468231219682"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/amazeui.ie8polyfill.min.js" timestamp="1467206949592" lastAccessTime="1468315424162"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/amazeui.js" timestamp="1467206949592" lastAccessTime="1468231219916"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/amazeui.min.js" timestamp="1467206949592" lastAccessTime="1468231220065"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/amazeui.widgets.helper.js" timestamp="1467206949592" lastAccessTime="1468231220231"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/amazeui.widgets.helper.min.js" timestamp="1467206949592" lastAccessTime="1468231220340"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/app.js" timestamp="1467206949592" lastAccessTime="1468231220442"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/common.js" timestamp="1467428716755" lastAccessTime="1468231220543"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/handlebars.min.js" timestamp="1467206949592" lastAccessTime="1468231220648"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/img.js" timestamp="1467206949592" lastAccessTime="1468231220753"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/jquery.min.js" timestamp="1467206949592" lastAccessTime="1468231220866"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/jquery.waterfall.min.js" timestamp="1467206949592" lastAccessTime="1468231220980"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/modal.js" timestamp="1467431542281" lastAccessTime="1468231221082"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/page.js" timestamp="1467291110022" lastAccessTime="1468231221183"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/pinto.min.js" timestamp="1467206949592" lastAccessTime="1468231221286"/>
+  <entries path="D:/myeclipse_space/ZW_workspace/Base_sum/WebRoot/assets/js/table.js" timestamp="1467339065676" lastAccessTime="1468231221390"/>
+</cache:CacheIndex>

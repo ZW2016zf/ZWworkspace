@@ -1,0 +1,7 @@
+#Mon Jul 11 17:44:29 CST 2016
+SERVER_ENABLEMENT=false
+LIBRARY_PATH="C\:\\Program Files (x86)\\Java\\jdk1.6.0_43\\bin;D\:\\Program Files\\myclipse\\Common\\plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse_9.0.0.me201012172208\\tomcat\\bin"
+tomcat.configuration.version.current=2
+eclipse.preferences.version=1
+JDK_HOME=C\:\\Program Files (x86)\\Java\\jdk1.6.0_43
+ENDORSED_DIRS="D\:\\Program Files\\myclipse\\Common\\plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse_9.0.0.me201012172208\\tomcat/common/endorsed"

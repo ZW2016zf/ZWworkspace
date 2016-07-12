@@ -1,0 +1,13 @@
+#Mon Jul 11 18:00:26 CST 2016
+tomcat6Server.Base_sum.isUptoDate=true
+tomcat6Server.Base_sum.shouldOverwrite=false
+tomcat6Server.Base_sum.isExploded=true
+tomcat6Server.Base_sum.IEARProjectName=
+tomcat6Server.Base_sum.shouldBackup=false
+tomcat6Server.Base_sum.isDeployed=true
+tomcat6Server.Base_sum.type=WebDeployment
+eclipse.preferences.version=1
+tomcat6Server.Base_sum.altContextRoot=
+tomcat6Server.Base_sum.deployIsOverProject=false
+tomcat6Server.Base_sum.contextRoot=/Base_sum
+tomcat6Server.Base_sum.deploymentPath=D\:\\tomcat6\\apache-tomcat-6.0.43_ZW\\webapps\\Base_sum

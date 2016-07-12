@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "struts-2.1.dtd" >
+<struts>
+	<package name="myPackage" extends="configuration" namespace="/role">
+		<action name="role_*" class="RoleAction"  method="{1}" > 
+		
+		<result name="success">/WEB-INF/role/roleMessage.jsp</result>
+		<result name="index">/WEB-INF/xtgl/index.jsp</result>
+		<result name="add">/WEB-INF/role/roleMessage_add.jsp</result>
+		
+		</action>
+	</package>
+</struts>
